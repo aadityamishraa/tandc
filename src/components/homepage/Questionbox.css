@@ -1,0 +1,12 @@
+.question-box{
+    width: 100%;
+    background-color: #f4f4f4;
+    padding: 1.5rem 15rem;
+    display: flex;
+}
+
+img{
+    margin-right: 1rem;
+    height: 42px;
+    width: 42px;
+}

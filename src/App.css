@@ -1,0 +1,184 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.upperText{
+    font-family: 'Poppins', sans-serif;
+    font-size:30px;
+    font-weight:bolder;
+    text-align: center;
+    letter-spacing: 3px;
+    
+}
+.bluetxt{
+    color: #0288D1;
+}
+.greentxt{
+    color: #379237;
+}
+img{
+    height: 200px;
+    width: 250px;
+}
+.main{
+    margin-top: 1.6rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.inp{
+    width: 41rem;
+    padding: 0.6rem;
+    border: 2px solid grey;
+    border-radius: 0.3rem;
+    margin-left: 18.5rem;
+    margin-top: 8.5rem;
+}
+.inp-main{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    z-index: 10000;
+    
+}
+
+
+.sendBtn{
+    border: none;
+    cursor: pointer;
+    margin-right: 0.6rem;
+    margin-left: 0.3rem;
+    border-radius: 5px;
+    /* width:2.5rem; */
+    height: 2.5rem; 
+    margin-top: 8.5rem;
+      
+}
+.Sendimg{
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-left: 1rem;
+    
+}
+.syncBtn{
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    height: 2.5rem;
+    margin-top: 8.5rem;
+    
+}
+.syncimg{
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-top: 1%;
+    margin-left: 1rem;
+}
+
+
+@media (max-width: 768px) {
+    .inp {
+        width: 100%;
+        margin: 1rem auto 0 auto; 
+    }
+
+   
+
+    .sendBtn,
+    .syncBtn {
+        display: inline-block; 
+        margin: 0 0.5rem; 
+    }
+    
+    .logo {
+       
+       
+        margin: auto;
+        height: auto;
+
+        width: 70%;
+        max-width: 200px;
+    }
+        .part1,
+    .part2 {
+        flex-direction: column; 
+        margin-top: 1rem; 
+        width: auto; 
+    }
+
+    .line1,
+    .line2 {
+        width: 100%; 
+        margin-top: 1rem; 
+    }
+    
+}
+@media (max-width:979px){
+    .logo{
+        margin: auto;
+        height: auto;
+
+        /* width: 70%; */
+        /* max-width: 200px; */
+    }
+}
+
+
+@media (max-width: 980px) {
+    .part1,
+    .part2 {
+        flex-direction: column;
+        margin-top: 1rem;
+        width: auto;
+    }
+
+    .line1,
+    .line2 {
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+  
+    .inp {
+        width: 100%;
+        margin: 1rem auto 0 auto;
+    }
+
+    
+
+    .sendBtn,
+    .syncBtn {
+        display: inline-block;
+        margin: 0.5rem;
+        margin-top: 1.3rem;
+    }
+
+
+    .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        width: 70%;
+        max-width: 200px;
+        
+    }
+
+    
+    .main {
+        text-align: center;
+        margin-top: 1rem;
+    }
+}
+
+
+
+
+
